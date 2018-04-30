@@ -1,0 +1,11 @@
+{
+    "extends": "google",
+    "rules": {
+        "indent": [2, 4],
+        "comma-dangle": ["error", "only-multiline"],
+        "max-len": ["error", { "ignorePattern": "require()" }]
+    },
+    "parserOptions": {
+        "ecmaVersion": 6
+    }
+}
