@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const chai = require('chai');
 const chaiHttp = require('chai-http');
-const server = require('../src/server');
+const server = require('../server');
 const models = require('../src/model/index');
 const should = chai.should();
 
